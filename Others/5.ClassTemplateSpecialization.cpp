@@ -23,7 +23,7 @@ struct Traits<Color>{
 
 template<>
 struct Traits<Fruit>{
-    string name(int index){
+    static string name(int index){
         switch(index){
             case 0:
                 return "apple";
